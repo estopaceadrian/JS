@@ -1,19 +1,19 @@
 const meal = {
-  description: "Dinner",
+  description: 'Dinner',
 };
 
 console.log(meal);
 
 const updatedMeal = {
   ...meal,
-  Drinks: "Coke",
+  Drinks: 'Coke',
 };
 
 console.log(updatedMeal);
 
 const latestMeal = {
   ...updatedMeal,
-  Drinks: updatedMeal.Drinks + " and Pepsi",
+  Drinks: updatedMeal.Drinks + ' and Pepsi',
 };
 
 console.log(latestMeal);

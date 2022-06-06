@@ -1,14 +1,14 @@
 // 1. create a constant named friends,
 // which is an array that contains 2
 // names of your choosing.
-const friends = ["adrian", "tipa"];
+const friends = ['adrian', 'tipa'];
 
 console.log(friends);
 // 2. Create a new constant named updatedFriends,
 // which includes the friends array values plus
 // one additional name
 
-const updatedFriends = [...friends, "estopace"];
+const updatedFriends = [...friends, 'estopace'];
 console.log(updatedFriends);
 
 // 3. Create a new constant named friendNameLengths,
